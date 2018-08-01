@@ -1,0 +1,6 @@
+framework module Pods_Flower_iDer {
+  umbrella header "Pods-Flower iDer-umbrella.h"
+
+  export *
+  module * { export * }
+}
