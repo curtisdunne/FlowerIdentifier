@@ -65,10 +65,10 @@ extension ViewController: UIImagePickerControllerDelegate {
     }
     
     func detect(image: CIImage) {
-        guard let model = try? VNCoreMLModel(for: FlowerClassifier().model) else {
+        guard let model = try? VNCoreMLModel(for: Flowers_CoreML().model) else {
             fatalError("Loading the CoreML Flower Model Failed.")
         }
-        
+
         let request = VNCoreMLRequest(model: model) { (request, error) in
             guard let results = request.results as? [VNClassificationObservation] else {
                 fatalError("Flower Identification Model failed to process Image.")

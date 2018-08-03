@@ -12,7 +12,7 @@
 		3567804D210F7235008E38E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3567804B210F7235008E38E7 /* Main.storyboard */; };
 		3567804F210F7236008E38E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3567804E210F7236008E38E7 /* Assets.xcassets */; };
 		35678052210F7236008E38E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35678050210F7236008E38E7 /* LaunchScreen.storyboard */; };
-		3567805A210F7268008E38E7 /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 35678059210F7268008E38E7 /* FlowerClassifier.mlmodel */; };
+		35732DBF21136EB100D0603F /* Flowers_CoreML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 35732DBE21136EB100D0603F /* Flowers_CoreML.mlmodel */; };
 		F13B8474991FB2B536CBBD39 /* Pods_Flower_iDer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC25476E08AFD8ED66F726F /* Pods_Flower_iDer.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		3567804E210F7236008E38E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35678051210F7236008E38E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35678053210F7236008E38E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35678059210F7268008E38E7 /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
+		35732DBE21136EB100D0603F /* Flowers_CoreML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Flowers_CoreML.mlmodel; sourceTree = "<group>"; };
 		A8021C8A7CBFF5B7241FD737 /* Pods-Flower iDer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flower iDer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flower iDer/Pods-Flower iDer.release.xcconfig"; sourceTree = "<group>"; };
 		CCC25476E08AFD8ED66F726F /* Pods_Flower_iDer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flower_iDer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3A6FFDCD3B0BF27938594A /* Pods-Flower iDer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flower iDer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flower iDer/Pods-Flower iDer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 				3567804B210F7235008E38E7 /* Main.storyboard */,
 				3567804E210F7236008E38E7 /* Assets.xcassets */,
 				35678050210F7236008E38E7 /* LaunchScreen.storyboard */,
-				35678059210F7268008E38E7 /* FlowerClassifier.mlmodel */,
+				35732DBE21136EB100D0603F /* Flowers_CoreML.mlmodel */,
 				35678053210F7236008E38E7 /* Info.plist */,
 			);
 			path = "Flower iDer";
@@ -207,8 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3567805A210F7268008E38E7 /* FlowerClassifier.mlmodel in Sources */,
 				3567804A210F7235008E38E7 /* ViewController.swift in Sources */,
+				35732DBF21136EB100D0603F /* Flowers_CoreML.mlmodel in Sources */,
 				35678048210F7235008E38E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
